@@ -12,6 +12,7 @@
     <style>
         
         body{
+            overflow-x: hidden;
                 display: grid;
                 grid-template-areas: 
                     'zagl zagl zagl'
@@ -48,17 +49,19 @@
             }
 
             nav ul li {
-                width: 10%;
+                width: inherit;
                 margin: 0 auto;
                 display: inline-block;
                 border: 0;
-                
+                width: 15%;
+                text-align: center;
             }
 
             nav ul li a {
+                width: 100%;
                 border: 0;
                 margin: 0 auto;
-                padding: 10%;
+                padding: 8%;
                 text-align: center;
             }
             
