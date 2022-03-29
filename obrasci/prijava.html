@@ -60,11 +60,11 @@
         <main>
             <div class="obrazac_prijave">
                 <form method="post" action="http://barka.foi.hr/WebDiP/2021/materijali/zadace/ispis_forme.php">
-                    <label for="korime">Korisničko ime: </label><input type="text" name="korime" maxlength="25" required><br><br>
-                    <label for="lozinka">Lozinka: </label><input type="password" name="lozinka" maxlength="50" required><br><br>
-                    <label for="remeber">Zapamti me: </label>
-                    <input type="radio" name="remember" value="yes">Da 
-                    <input type="radio" name="remember" value="no" checked>Ne <br><br>
+                    <label for="korime">Korisničko ime: </label><input type="text" name="korime" id="korime" maxlength="25" required><br><br>
+                    <label for="lozinka">Lozinka: </label><input type="password" name="lozinka" id="lozinka" maxlength="50" required><br><br>
+                    <label>Zapamti me: </label>
+                    <input type="radio" name="remember" id="da" value="yes"><label for="da">Da</label> 
+                    <input type="radio" name="remember" id="ne" value="no" checked><label for="ne">Ne</label><br><br>
                     <a href="../index.html">Zaboravljena lozinka?</a><br><br>
                     <input type="submit" value="POŠALJI">
                 </form>

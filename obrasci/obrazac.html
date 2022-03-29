@@ -61,10 +61,10 @@
 
             <div class="obrazac_prikaza">
                 <form method="post" action="http://barka.foi.hr/WebDiP/2021/materijali/zadace/ispis_forme.php">
-                    <label for="korime">ID: </label><input type="number" name="korime" value="1" maxlength="25" disabled required><br><br>
-                    <label for="naziv">Naziv: </label><input type="file" name="naziv" required><br><br>
+                    <label for="korime">ID: </label><input type="number" name="korime" id="korime" value="1" disabled required><br><br>
+                    <label for="naziv">Naziv: </label><input type="file" name="naziv" id="naziv" required><br><br>
                     <label for="kategorija">Kategorija: </label>
-                    <input type="text" name="kategorija" list="lista" required>
+                    <input type="text" name="kategorija" id="kategorija" list="lista" required>
                     <datalist id="lista">
                         <option> MBTI</option>
                         <option> Enneagram</option>
@@ -72,13 +72,13 @@
                         <option> DISC</option>
                     </datalist><br><br>
                     <label for="datvrijeme">Datum i vrijeme: </label>
-                    <input type="datetime-local" name="datvrijeme" required><br><br>
+                    <input type="datetime-local" name="datvrijeme" id="datvrijeme" required><br><br>
                     <label for="opis">Opis: </label><br>
-                    <textarea name="opis" placeholder="Unesite opis..." required></textarea><br><br>
+                    <textarea name="opis" id="opis" placeholder="Unesite opis..." required></textarea><br><br>
                     <input type="hidden" value="1000000">
                     
                     <br><br>
-                    <label for="boja">Boja teme: </label><input type="color" required><br><br>
+                    <label>Boja teme: </label><input type="color"><br><br>
                     <label>Alergije: </label><br>
                     <input type="checkbox" name="orplodovi" id="orplodovi" value="orasasti">
                     <label for="orplodovi">Orašasti plodovi</label><br>

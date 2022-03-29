@@ -13,7 +13,7 @@ header {
     height: 60px;
     background-color: slategrey;
     position: relative;
-    border-bottom: 3px solid darkslategray;
+    border-bottom: 3px solid rgb(39, 65, 65);
 }
 
 header a {
@@ -101,7 +101,6 @@ footer {
     border-top: 2px solid rgb(72, 80, 90);
     margin-top: 10%;
     padding-top: 2%;
-    float: bottom;
     background-color: slategray;
     width: 100%;
     text-align: center;

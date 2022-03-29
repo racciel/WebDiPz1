@@ -60,14 +60,14 @@
         <main>
             <div class="obrazac_registracije">
                 <form method="get" action="http://barka.foi.hr/WebDiP/2021/materijali/zadace/ispis_forme.php" id="rega">
-                    <label for="imeiprezime">Ime i prezime: </label><input type="text" name="imeiprezime" autofocus required><br><br>
-                    <label for="godinarod">Godina rođenja: </label><input type="date" name="godinarod" required><br><br>
-                    <label for="mail">E-mail: </label><input type="email" placeholder="ldap@foi.hr" name="mail" required><br><br>
-                    <label for="korime">Korisničko ime: </label><input type="text" name="korime" maxlength="25" required><br><br>
-                    <label for="lozinka">Lozinka: </label><input type="password" name="lozinka" maxlength="50" required><br><br>
-                    <label for="plozinka">Potvrda lozinke: </label><input type="password" name="plozinka" maxlength="50" required><br><br>
+                    <label for="imeiprezime">Ime i prezime: </label><input type="text" id="imeiprezime" name="imeiprezime" autofocus required><br><br>
+                    <label for="godinarod">Godina rođenja: </label><input type="date" id="godinarod" name="godinarod" required><br><br>
+                    <label for="mail">E-mail: </label><input type="email" placeholder="ldap@foi.hr" id="mail" name="mail" required><br><br>
+                    <label for="korime">Korisničko ime: </label><input type="text" id="korime" name="korime" maxlength="25" required><br><br>
+                    <label for="lozinka">Lozinka: </label><input type="password" id="lozinka" name="lozinka" maxlength="50" required><br><br>
+                    <label for="plozinka">Potvrda lozinke: </label><input type="password" id="plozinka" name="plozinka" maxlength="50" required><br><br>
                     <label for="kolacici">Kolačići: </label>
-                    <select name="kolacici">
+                    <select name="kolacici" id="kolacici">
                         <option value="0">nužni</option>
                         <option value="1">marketinški</option>
                         <option value="2">analitički</option>
