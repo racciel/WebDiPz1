@@ -59,7 +59,7 @@
         
         <main>
             <div class="obrazac_registracije">
-                <form method="get" action="http://barka.foi.hr/WebDiP/2021/materijali/zadace/ispis_forme.php">
+                <form method="get" action="http://barka.foi.hr/WebDiP/2021/materijali/zadace/ispis_forme.php" id="rega">
                     <label for="imeiprezime">Ime i prezime: </label><input type="text" name="imeiprezime" autofocus required><br><br>
                     <label for="godinarod">Godina rođenja: </label><input type="date" name="godinarod" required><br><br>
                     <label for="mail">E-mail: </label><input type="email" placeholder="ldap@foi.hr" name="mail" required><br><br>
@@ -72,8 +72,8 @@
                         <option value="1">marketinški</option>
                         <option value="2">analitički</option>
                     </select><br><br>
-                    <input type="submit" value="POŠALJI">
                 </form>
+                <input type="submit" form="rega" value="POŠALJI">
             </div>
         </main>
         
